@@ -1,0 +1,14 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BUFFER_SIZE	client.c	32;"	d	file:
+BUFFER_SIZE	server.c	33;"	d	file:
+SERVER_PORT	client.c	31;"	d	file:
+SERVER_PORT	server.c	32;"	d	file:
+buffer	client.c	/^char buffer[BUFFER_SIZE];$/;"	v
+buffer	server.c	/^char buffer[BUFFER_SIZE];$/;"	v
+main	client.c	/^int main(int argc, char *argv[])$/;"	f
+main	server.c	/^int main(void)$/;"	f
